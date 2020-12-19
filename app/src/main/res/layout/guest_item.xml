@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="6dp"
+    android:id="@+id/ll"
+    android:background="@drawable/item_bg">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/tv_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Room"/>
+
+    <TextView
+        android:id="@+id/tv_tp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Price"/>
+
+    <TextView
+        android:id="@+id/tv_sex"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Sex"/>
+
+
+</LinearLayout>

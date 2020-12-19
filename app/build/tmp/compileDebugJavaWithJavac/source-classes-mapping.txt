@@ -1,0 +1,32 @@
+com/example/hotelmanager/Fragments/Edit.java
+ com.example.hotelmanager.Fragments.Edit
+ com.example.hotelmanager.Fragments.Edit$1
+ com.example.hotelmanager.Fragments.Edit$2
+ com.example.hotelmanager.Fragments.Edit$3
+com/example/hotelmanager/OnBackPressed.java
+ com.example.hotelmanager.OnBackPressed
+com/example/hotelmanager/DB/HotelHelperClass.java
+ com.example.hotelmanager.DB.HotelHelperClass
+ com.example.hotelmanager.DB.HotelHelperClass$HotelEntry
+com/example/hotelmanager/MainActivity.java
+ com.example.hotelmanager.MainActivity
+ com.example.hotelmanager.MainActivity$1
+ com.example.hotelmanager.MainActivity$2
+ com.example.hotelmanager.MainActivity$3
+com/example/hotelmanager/GuestAdapter.java
+ com.example.hotelmanager.GuestAdapter
+ com.example.hotelmanager.GuestAdapter$1
+ com.example.hotelmanager.GuestAdapter$NewViewHolder
+com/example/hotelmanager/BaseFragment.java
+ com.example.hotelmanager.BaseFragment
+com/example/hotelmanager/DB/DBHelper.java
+ com.example.hotelmanager.DB.DBHelper
+com/example/hotelmanager/BuildConfig.java
+ com.example.hotelmanager.BuildConfig
+com/example/hotelmanager/Model/Guest.java
+ com.example.hotelmanager.Model.Guest
+com/example/hotelmanager/Fragments/Add.java
+ com.example.hotelmanager.Fragments.Add
+ com.example.hotelmanager.Fragments.Add$1
+ com.example.hotelmanager.Fragments.Add$2
+ com.example.hotelmanager.Fragments.Add$3

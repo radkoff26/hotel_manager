@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".Fragments.Add">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_bg"
+        android:hint="Name"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8C8C8C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_bg"
+        android:hint="Room"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8C8C8C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_bg"
+        android:hint="Total Price"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8C8C8C"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/male"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/female"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Female"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        android:padding="5dp"
+        android:text="Create"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
